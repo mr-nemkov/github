@@ -11,4 +11,10 @@ git branch -a - list all branches, including remote branches
 git branch -d <name> - delete a branch
 git branch -D <name> - force delete a branch
 git merge <name> - merge a branch into the current branch
+git remote -v - list all remote repositories
+git remote add <name> <url> - add a new remote repository
+git remote show <name> - show details of a remote repository
+git ls-remote - show references in a remote repository
+git fetch <name> - fetch changes from a remote repository
+git pull <name> <branch> - fetch and merge changes from a remote repository
 '''
